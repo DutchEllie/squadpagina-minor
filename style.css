@@ -31,3 +31,7 @@ html {
   border-width: 1em;
   border-style: solid;
 }
+
+#spinnable {
+  position: absolute;
+}
