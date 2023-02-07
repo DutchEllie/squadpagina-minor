@@ -1,0 +1,33 @@
+html {
+  --spinner: #1eaaf0;
+  --center: translate(-50%, -50%);
+}
+
+#scroll-thingy {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  border-color: transparent transparent transparent green;
+  border-width: 1em;
+  border-style: solid;
+}
+
+.center {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: var(--spinner);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: var(--center);
+}
+
+.spinner {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  border-color: red blue yellow green;
+  border-width: 1em;
+  border-style: solid;
+}
